@@ -5,10 +5,13 @@ public class MaryanCoursesJava {
 
     public static void main(String [] args) {
 
-        MainWindow mw1 = new MainWindow();
+        Car mw1 = new Car();
         mw1.show();
 
-        MainWindow mw2 = new MainWindow("Hello Misha!");
+        Car mw2 = new Car("BMW");
         mw2.show();
+
+        Car mw3 = new Car("BMW", "X5");
+        mw3.show();
     }
 }
