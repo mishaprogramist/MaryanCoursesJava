@@ -11,6 +11,9 @@ public class Car {
 
     public Car(String marka){
         this.marka = marka;
+        if (marka.equals("BMW")){
+            this.model = "A1";
+        }
     }
 
     public Car(String marka, String model){
