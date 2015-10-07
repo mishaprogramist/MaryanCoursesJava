@@ -5,7 +5,10 @@ public class MaryanCoursesJava {
 
     public static void main(String [] args) {
 
-        MainWindow mw = new MainWindow();
-        mw.show();
+        MainWindow mw1 = new MainWindow();
+        mw1.show();
+
+        MainWindow mw2 = new MainWindow("Hello Misha!");
+        mw2.show();
     }
 }
