@@ -3,16 +3,16 @@
  */
 public class Car {
     /*
-    измени класс Car, чтобы он содержал
-    1) марка String
-    2) модель String
-    3) год выпуска int
-    4) пробег - float
+    РёР·РјРµРЅРё РєР»Р°СЃСЃ Car, С‡С‚РѕР±С‹ РѕРЅ СЃРѕРґРµСЂР¶Р°Р»
+    1) РјР°СЂРєР° String
+    2) РјРѕРґРµР»СЊ String
+    3) РіРѕРґ РІС‹РїСѓСЃРєР° int
+    4) РїСЂРѕР±РµРі - float
      */
     String marka = "Peugeot";
     String model = "405";
-    private int godVypuska;
-    private float probeg;
+    private int godVypuska = 1989;
+    private double probeg = 400000.0;
 
     public Car(){
 
@@ -21,10 +21,19 @@ public class Car {
     public Car(String marka, String model){
         this.marka = marka;
         this.model = model;
+        this.godVypuska = 2015;
+        this.probeg = 0;
+    }
+
+    public Car(String marka, String model, int godVypuska, double probeg){
+        this.marka = marka;
+        this.model = model;
+        this.godVypuska = godVypuska;
+        this.probeg = probeg;
     }
 
     public void show(){
-        System.out.println(this.marka + " - " + this.model);
+        System.out.println(this.marka + " - " + this.model + " " + this.godVypuska + " РіРѕРґР° РІС‹РїСѓСЃРєР° СЃ РїСЂРѕР±РµРіРѕРј " + this.probeg + " РєРј");
     }
 
 
