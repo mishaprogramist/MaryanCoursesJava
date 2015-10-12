@@ -9,8 +9,8 @@ public class Car {
     3) год выпуска int
     4) пробег - float
      */
-    String marka = "Peugeot";
-    String model = "405";
+    private String marka = "Peugeot";
+    private String model = "405";
     private int godVypuska = 1989;
     private double probeg = 400000.0;
 
@@ -36,5 +36,8 @@ public class Car {
         System.out.println(this.marka + " - " + this.model + " " + this.godVypuska + " года выпуска с пробегом " + this.probeg + " км");
     }
 
+    public void setProbeg(double probeg){
+        this.probeg = probeg;
+    }
 
 }
