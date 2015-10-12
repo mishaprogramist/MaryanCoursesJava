@@ -8,7 +8,7 @@ public class MaryanCoursesJava {
         Car mw1 = new Car();
         mw1.show();
 
-        Car mw2 = new Car("BMW");
+        Car mw2 = new Car("BMW", "A1");
         mw2.show();
 
         Car mw3 = new Car("BMW", "X5");
