@@ -17,6 +17,8 @@ public class MaryanCoursesJava {
         Car mw3 = new Bmw("X5");
         mw3.show();
 
-        int mw4 = 678;
+        Car mw4 = new Bmw();
+        mw4.show();
+
     }
 }
