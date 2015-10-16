@@ -1,3 +1,5 @@
+package com.github.mishaprogramist.MaryanCoursesJava;
+
 /**
  * Created by m.karma on 30.09.2015.
  */
@@ -41,3 +43,4 @@ public class Car {
     }
 
 }
+

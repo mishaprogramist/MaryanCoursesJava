@@ -1,6 +1,5 @@
-/**
- * Created by m.karma on 30.09.2015.
- */
+import com.github.mishaprogramist.MaryanCoursesJava.Car;
+
 public class MaryanCoursesJava {
 
     public static void main(String [] args) {
