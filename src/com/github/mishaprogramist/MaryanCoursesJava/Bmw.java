@@ -9,4 +9,11 @@ public class Bmw extends Car {
         this.marka = "BMW";
         this.model = model;
     }
+
+    public Bmw(String model, int godVypuska, double probeg){
+        this.marka = "BMW";
+        this.model = model;
+        this.godVypuska = godVypuska;
+        this.probeg = probeg;
+    }
 }

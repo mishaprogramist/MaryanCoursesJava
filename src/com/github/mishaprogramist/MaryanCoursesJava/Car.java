@@ -13,8 +13,8 @@ public class Car {
      */
     String marka = "Peugeot";
     String model = "405";
-    private int godVypuska = 1989;
-    private double probeg = 400000.0;
+    int godVypuska = 1989;
+    double probeg = 400000.0;
 
     public Car(){
 
