@@ -21,10 +21,7 @@ public class Car {
     }
 
     public Car(String marka, String model){
-        this.marka = marka;
-        this.model = model;
-        this.godVypuska = 2015;
-        this.probeg = 0;
+        this(marka, model, 2015, 0);
     }
 
     public Car(String marka, String model, int godVypuska, double probeg){

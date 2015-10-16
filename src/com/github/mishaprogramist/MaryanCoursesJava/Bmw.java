@@ -6,8 +6,7 @@ package com.github.mishaprogramist.MaryanCoursesJava;
 public class Bmw extends Car {
 
     public Bmw(){
-        this.marka = "BMW";
-        this.model = "A1";
+        this("A1");
     }
 
     public Bmw(String model){
