@@ -1,3 +1,4 @@
+import com.github.mishaprogramist.MaryanCoursesJava.Bmw;
 import com.github.mishaprogramist.MaryanCoursesJava.Car;
 
 public class MaryanCoursesJava {
@@ -13,7 +14,7 @@ public class MaryanCoursesJava {
         mw2.setProbeg(1234.0);
         mw2.show();
 
-        Car mw3 = new Car("BMW", "X5");
+        Car mw3 = new Bmw("X5");
         mw3.show();
 
         int mw4 = 678;

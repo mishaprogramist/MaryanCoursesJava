@@ -11,8 +11,8 @@ public class Car {
     3) год выпуска int
     4) пробег - float
      */
-    private String marka = "Peugeot";
-    private String model = "405";
+    String marka = "Peugeot";
+    String model = "405";
     private int godVypuska = 1989;
     private double probeg = 400000.0;
 
