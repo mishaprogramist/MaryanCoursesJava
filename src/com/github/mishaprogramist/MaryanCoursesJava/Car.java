@@ -16,21 +16,6 @@ public class Car {
     int godVypuska = 2015;
     double probeg = 30;
 
-    public Car(){
-
-    }
-
-    public Car(String marka, String model){
-        this(marka, model, 2015, 0);
-    }
-
-    public Car(String marka, String model, int godVypuska, double probeg){
-        this.marka = marka;
-        this.model = model;
-        this.godVypuska = godVypuska;
-        this.probeg = probeg;
-    }
-
     public void show(){
         System.out.println(this.marka + " - " + this.model + " " + this.godVypuska + " года выпуска с пробегом " + this.probeg + " км");
     }
